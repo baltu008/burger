@@ -1,9 +1,11 @@
-CREATE DATABASE burger_db;
+CREATE DATABASE burgers_db;
 
-USE burger_db;
+USE burgers_db;
 
-CREATE TABLE burgers (
-    id INT NOT NULL AUTO_INCREMENT,
-    burger_name varchar(30) NOT NULL,
-    devoured BOOLEAN
-)
+CREATE TABLE burgers
+(
+	id INT NOT NULL AUTO_INCREMENT,
+	burger_name VARCHAR(200) NOT NULL,
+	devoured BOOLEAN default false,
+	PRIMARY KEY(id)
+);
