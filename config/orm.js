@@ -22,7 +22,7 @@ var orm = {
 		})
 	},
 	insertOne: function (table, burger_name, cb) {
-		var queryString = "INSERT INTO " + table + " (burger_name) VALUES ('" + burger_name + "')";
+		var queryString = "INSERT INTO " + table + " (burger_name) VALUES (" + burger_name + ")";
 		console.log(queryString);
 		connection.query(queryString, function (err, result) {
 			if (err) throw err;

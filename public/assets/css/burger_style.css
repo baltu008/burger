@@ -23,6 +23,7 @@ ul, li {
 
 hr {
 	background-color: #fff;
+	margin-top: 0px;
 }
 
 .container-burgers {
@@ -42,6 +43,7 @@ hr {
 	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
 	text-align: center;
 	margin-right: 30px;
+	margin-bottom: 50px;
 	opacity: 0.9;
 }
 
@@ -55,6 +57,18 @@ hr {
 	border: 0 none;
 	border-radius: 5px;
 	border-color:  rgb(9, 219, 9) !important;
+	cursor: pointer;
+	margin-top: 5px;
+}
+
+.btn-danger {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+	color: white !important;
+	border: 0 none;
+	border-radius: 5px;
 	cursor: pointer;
 	margin-top: 5px;
 }
